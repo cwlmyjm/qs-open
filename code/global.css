@@ -1,0 +1,58 @@
+﻿body
+{
+	font-family:微软雅黑;
+	background-color:#EBEBEB;
+	padding:32px 16px 32px 16px;
+	text-align:center;
+	font-size : 1em;
+}
+hr
+{
+	width:75%;
+	height:3px;
+	border:none;
+	border-top:3px double black;
+}
+input{
+	width:75%;
+	height:50px;
+	transition:all 0.30s ease-in-out;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	font-size : 1em;
+	
+	border:#35a5e5 1px solid;
+	border-radius:3px;
+	outline:none;
+}
+input:focus{
+	box-shadow:0 0 5px rgba(81, 203, 238, 1);
+	-webkit-box-shadow:0 0 5px rgba(81, 203, 238, 1);
+	-moz-box-shadow:0 0 5px rgba(81, 203, 238, 1);
+}
+textarea
+{
+	width:74%;
+	height:50px;
+	transition:all 0.30s ease-in-out;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	
+	border:#35a5e5 1px solid;
+	border-radius:3px;
+	outline:none;
+}
+textarea:focus{
+	box-shadow:0 0 5px rgba(81, 203, 238, 1);
+	-webkit-box-shadow:0 0 5px rgba(81, 203, 238, 1);
+	-moz-box-shadow:0 0 5px rgba(81, 203, 238, 1);
+}
+a
+{
+text-decoration:none;
+font-size : 1em;
+}
+table
+{
+	width:100%;
+}
